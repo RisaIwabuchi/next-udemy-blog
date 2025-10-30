@@ -8,6 +8,10 @@ const nextConfig: NextConfig = {
         protocol: 'https', 
         hostname: 'picsum.photos', 
       }, 
+      { 
+        protocol: 'https', 
+        hostname: 'yjmwexjsggktmjbmhygi.supabase.co', 
+      },
     ], 
  },
  experimental: { 
@@ -15,6 +19,7 @@ const nextConfig: NextConfig = {
       bodySizeLimit: '5mb', // 必要に応じて値を変更 
     }, 
   },
+
 };
 
 export default nextConfig;
